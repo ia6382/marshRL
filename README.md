@@ -1,8 +1,9 @@
-# marshRL
-Prototype traditional roguelike game focused on exploring pathfinding and satisfying hefty combat. 
+# MarshRL
+A prototype traditional roguelike game focused on satisfying, hefty combat and exploring pathfinding algorithms. The goal is to create a fun, tactical gameplay experience while experimenting with AI and movement systems.
 
 ## Dependencies
-Made with C++. Uses the popular [Raylib](https://github.com/raysan5/raylib) library (version v5.5) and [raylib-cpp wrapper](https://github.com/RobLoach/raylib-cpp) (version v5.5.0).
-Wrapper is already inlcuded in the project, while raylib has to be installed to compile the project - see instructions on the Raylib page.
+MarshRL is built with C++ and utilizes the following libraries:
+- [Raylib](https://github.com/raysan5/raylib) (v5.5): A simple and easy-to-use library for 2D/3D game programming.
+- [raylib-cpp](https://github.com/RobLoach/raylib-cpp) (v5.5.0): A C++ wrapper for Raylib.
 
-.vscode files (for windows setup) and Makefile are included for easier setup.
+The **raylib-cpp wrapper** is already included in the project. However, **Raylib** must be installed separately to compile the project. Refer to the [Raylib Installation Guide](https://giithub.com/raysan5/raylib?tab=readme-ov-file#build-and-installation) for instructions.
