@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/include/**",
                 "${workspaceFolder}/src/**",
-                "C:/Users/Ivan/myDev/w64devkit/x86_64-w64-mingw32/include" // Adjust to your raylib include path
+                "C:/Users/Ivan/myDev/w64devkit/x86_64-w64-mingw32/include", // Adjust to your raylib include path
+                "${workspaceFolder}/include/raylib-cpp-wrapper"
             ],
             "defines": [
                 "_DEBUG",
